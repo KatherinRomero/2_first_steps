@@ -1,0 +1,9 @@
+
+
+.item-row{
+    display: flex; /* alinea elementos horizontalmente */
+    align-items: center;
+    gap: 10px; /* espacio entre elementos */
+    margin-top: 10px;
+}
+

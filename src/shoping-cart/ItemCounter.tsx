@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import'./ItemCounter.css'
 interface Props{
     nameProducto:String,
     
@@ -24,12 +24,8 @@ setcount(quantity-1)
   console.log(`click en ${nameProducto}`)
 }
   return (
-    <section style={{
-        display:'flex',/* display flex para alinear elementos horizontalmente */
-        alignItems: 'center',
-        gap:10,/* gap para el espacio entre elementos */
-        marginTop:10,
-    }}>
+    <section className="item-row">
+      
       <span style={{
         width:65
       }}>{nameProducto}</span>
