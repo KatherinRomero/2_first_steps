@@ -12,8 +12,8 @@ test('descripcion de la prueva ',()=>{
 
 describe('subtract', () => { //agrupamos las pruebas
  test('resta correctamente ', () => {
-    const a=3
-    const b=5
+    const a=1
+    const b=1
 
     const result = subtract(a,b)
     expect(result).toBe(0)
