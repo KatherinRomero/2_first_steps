@@ -9,6 +9,9 @@ export const Mynombre=()=>{
        <h2>{name}</h2>
       <h3 data-testid="apellido">Romero</h3>
        <h3>{isActive? 'Axctivo ':'No activo' }</h3>
+       <div id="prueva ">
+        <p>parrafo de prueba <span>holi</span></p>
+       </div>
         </>
     )
 }
